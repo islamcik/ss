@@ -1,0 +1,135 @@
+.glv1{
+    position: absolute;
+    
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+}
+.glv1::after{
+    content: "";
+    display: block;
+    width: 100vh;
+    height: auto;
+    position: relative;
+    
+}
+.body
+{
+
+
+    position: relative;
+
+    overflow: hidden;
+    
+    
+
+  display: flex;
+    flex-direction: row;
+    
+    margin: auto;
+}
+
+.glv_blok{
+    
+    color: black;
+    margin-top: 15px;
+    padding-left:25px;
+    padding-right: 25px;
+    margin-left: 350px;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    font-size: 14px;
+        font-family:monospace  ;
+    
+    
+    
+}
+img{
+    padding-left: 55px;
+    padding-top: 10px;
+    border-top-left-radius: 100% 90px; border-bottom-right-radius: 100% 90px;
+}
+.str0{
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    padding: -1px;
+    
+    
+}
+.str0 > p{
+     margin: -0.2px;
+    padding-bottom: 12px;
+  
+    
+    
+    
+}
+progress{
+   
+    border: 0;
+    width: 30%;
+    height: 8px;
+    border-radius: 9px;
+}
+.str1_3 >li progress {
+     
+    padding-left: 18px;
+}
+ul >li{
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 5px;
+    font-family:cursive  ;
+}
+ul>strong{
+    font-size: 20px;
+  
+}
+.fa >i{
+    margin-left: 2px;
+ 
+}
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+ul li a:hover{
+    font-size: 14.4px;
+    color: #FFEB50;
+    transition: all 0.7s ease; 
+}
+.str1_21 >i{
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+.glv_blok2{
+    
+    color: black;
+    margin-top: 15px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 350px;
+    
+    font-size: 14px;
+    font-family:monospace  ;
+  
+}
+
+
+
+
+
+
+
+
